@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- * font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+  <!-- ----------font awsome link--------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- -------------------- style sheets -------------------------------- -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./media_style.css" />
+
+  <title>toggl</title>
+</head>
+
+<body>
+  <section class="navigation">
+    <nav class="beforeToggl">
+      <div class="navBar front">
+        <ul>
+          <li>
+            <a href="" class="logo">
+              <h1>toggl</h1>
+            </a>
+          </li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Our mission</a></li>
+          <li>
+            <a href="">Working at Toggl <span>WE'RE HIRING</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="navBar rear">
+        <ul>
+          <li><a href="">Log in</a></li>
+          <li>
+            <a href=""><button>Try Toggl</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="afterToggl">
+      <a href="" class="logo">
+        <h1>toggl</h1>
+      </a>
+      <button id="menu" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <button id="cross" class="cross-spin" onclick="closeMenu()">
+        <i class="fa-solid fa-x"></i>
+      </button>
+    </nav>
+
+    <div id="menuBar">
+      <ul>
+        <li><a href="">Products</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Our mission</a></li>
+        <li>
+          <a href="">Working at Toggl <span>WE'RE HIRING</span></a>
+        </li>
+        <li><a href="">Log in</a></li>
+        <li>
+          <a href=""><button>Try Toggl</button></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- ------------------------------------ header ------------------------------- -->
+  <section class="header">
+    <div class="superPage">
+      <div class="superBody">
+        <div class="main_1">
+          <p id="superText">
+            Time tracking that's easy, powerful, <span class="tilt">a</span><span class="tilt">n</span><span
+              class="tilt">d</span> frictionless.
+          </p>
+          <p id="superDiscript">
+            Time tracking software to boost performance and get paid for every
+            billable minute. An intuitive tool that makes time tracking
+            painless for the entire team.
+          </p>
+          <div class="superButton">
+            <button>Start tracking for free</button>
+            <p><a href="#">Or explore Toggl Track</a></p>
+          </div>
+        </div>
+        <div class="main_2">
+          <img src="./photos/screen-track-app.avif" alt="screen track image" />
+        </div>
+      </div>
+      <div class="main_3">
+        <p>TRUSTED BY OVER 5 MILLION USERS ACROSS 120 COUNTRIES</p>
+        <img src="./photos/brands-mixed-desktop-light.avif" alt="" id="beforeToggl_img" />
+        <img src="./photos/brands-mixed-mobile-light.avif" alt="" id="afterToggl_img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------ -->
+
+  <section class="use-case">
+    <div class="body">
+      <div class="head">
+        <p>WHAT'S YOUR USE CASE?</p>
+        <h1>
+          Bill accurately, measure profitability,<br />
+          manage workloads – we’ve got ‘em <br />all
+        </h1>
+      </div>
+      <div class="product-block odd">
+        <div class="text-child">
+          <p class="def">
+            BILLING & INVOICING WITH <span><b>toggl</b> track</span>
+          </p>
+          <h2>Record every billable hour</h2>
+          <p>
+            Users report a 25% increase in billable hours with Toggl Track.
+            Leave behind messy spreadsheets and outdated timesheets for
+            simpler time entry, improved profitability, and accurate invoices
+            for your clients.
+          </p>
+          <button>Learn more about billing & invoicing</button>
+        </div>
+        <div class="img-child">
+          <img src="./photos/billing-invoicing.avif" alt="" />
+        </div>
+      </div>
+      <div class="product-block even">
+        <div class="img-child">
+          <img src="./photos/employee-time-tracking.avif" alt="" />
+        </div>
+        <div class="text-child">
+          <p class="def">
+            EMPLOYEE TIME TRACKING WITH <span><b>toggl</b> track</span>
+          </p>
+          <h2>Boost accountability across <br />teams</h2>
+          <p>
+            Stay informed, accountable, and transparent. Make payroll and
+            quarterly reporting easy with intuitive time tracking and accurate
+            time reports for growing teams.
+          </p>
+          <button>Learn more about employee time tracking</button>
+        </div>
+      </div>
+      <div class="head">
+        <img src="./photos/speaker-greg.avif" alt="" />
+        <h3>
+          “Toggl Track offers full control to our team members to accurately
+          track <br />their time. It is extremely easy and intuitive, as well
+          as non-invasive.”
+        </h3>
+        <p class="greg">
+          — Greg Martel, COO and co-founder of Newlogic, a software
+          consultancy of 50+ employees
+        </p>
+      </div>
+
+      <div class="product-block even block2">
+        <div class="img-child">
+          <img src="./photos/ss-track-time.avif" alt="" />
+        </div>
+        <div class="text-child">
+          <p class="def">
+            PROJECT TIME TRACKING <br />WITH
+            <span><b>toggl</b> track</span> AND <span><b>toggl</b> plan</span>
+          </p>
+          <h2>Track project time and hit deadlines with ease</h2>
+          <p>
+            Allocate tasks efficiently with Toggl Plan and monitor work hours
+            with Toggl Track. This two-way integration provides a direct view
+            of your team's effort, ensuring projects are profitable and
+            completed on schedule.
+          </p>
+          <button>Learn more about the integration</button>
+        </div>
+      </div>
+
+      <div class="product-block odd block2">
+        <div class="text-child">
+          <p class="def">
+            TEAM CAPACITY PLANNING WITH<span><b>toggl</b> plan</span>
+          </p>
+          <h2>Confidently schedule work without conflicts</h2>
+          <p>
+            Assess resource capacity in real time — view work hours,
+            availability, and workload at a glance. You'll get a clear picture
+            of your team's workload to avoid burning out team members.
+          </p>
+          <button>Learn more about resource planning</button>
+        </div>
+        <div class="img-child">
+          <img src="./photos/ss-timeline-availability.avif" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="opportunity">
+    <div class="body">
+      <div class="comment">
+        <h3>
+          Time tracking? Do you mean <span>micromanaging </span> my employees?
+        </h3>
+      </div>
+      <div class="define-Para">
+        <h3>
+          No, we do not. At Toggl, we see time as an
+          <span> opportunity </span>
+        </h3>
+        <p>
+          An opportunity to convert time tracked into actionable insights that
+          boost productivity, increase efficiency and balance team workloads.
+          So you can drive <span>profitability and growth</span> while
+          prioritising your team's <span>trust and well-being.</span>
+        </p>
+      </div>
+
+      <div class="companies">
+        <h4>COMPANIES THAT USE TOGGL TRACK SEE:</h4>
+        <div class="comp-container">
+          <div class="comp-box">
+            <h3><span>40</span>+ hours saved monthly</h3>
+            <p>
+              at Perception Engineering with one-click time tracking and
+              reporting
+            </p>
+            <div class="logo">
+              <img src="./photos/logo-perception.avif" alt="" />
+            </div>
+            <hr />
+            <div class="div-arr-btn">
+              <a href="#">Read case study
+                <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+          <div class="comp-box">
+            <h3><span>100</span>% time tracking adoption</h3>
+            <p>
+              with easy, non-intrusive time reporting at software consultancy
+              Newlogic
+            </p>
+            <div class="logo">
+              <img src="./photos/logo-newlogic.avif" alt="" />
+            </div>
+            <hr />
+            <div class="div-arr-btn">
+              <a href="#">Read case study
+                <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+          <div class="comp-box">
+            <h3><span>20</span>% increase in profitability</h3>
+            <p>
+              by accurately tracking billable work hours at Sweat+Co PR agency
+            </p>
+            <div class="logo">
+              <img src="./photos/logo-sweatco.avif" alt="" />
+            </div>
+            <hr />
+            <div class="div-arr-btn">
+              <a href="#">Read case study
+                <span><i class="fa-solid fa-arrow-right"></i> </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="insight">
+        <h3>Want better insights on how your team is spending their time?</h3>
+        <div class="bullets">
+          <p>
+            <span><i class="fa-regular fa-circle-check"></i></span>No credit
+            card required
+          </p>
+          <p>
+            <span><i class="fa-regular fa-circle-check"></i></span>Free 30-day
+            trial for all features
+          </p>
+          <p>
+            <span><i class="fa-regular fa-circle-check"></i></span>Cancel
+            anytime
+          </p>
+        </div>
+        <div class="superButton">
+          <button>Start tracking for free</button>
+          <p><a href="#">Or explore Toggl Track</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="teams">
+    <div class="body">
+      <div class="head">
+        <h1>
+          <span class="tilt">T</span><span class="tilt">h</span><span class="tilt">e</span> non-intrusive time tracker
+          <br />for
+          self-driven teams
+        </h1>
+      </div>
+      <!-- <div class="scroll-btn"><button>scroll</button></div> -->
+      <div class="scroll container">
+       
+        <div class="scroll-box">
+          <h4>Enterprise teams</h4>
+          <p>
+            Get frictionless time reporting for employees and customizable
+            time insights for managers.
+          </p>
+          <div class="hid-msg">
+            <h3>Make every minute <br>count</h3>
+          </div>
+          <div class="div-arr-btn">
+            <a href="#">Learn more
+              <span><i class="fa-solid fa-arrow-right"></i> </span></a>
+          </div>
+          <img src="./photos/team-enterprise.avif" alt="">
+        </div>
+        
+        <div class="scroll-box">
+          <h4>Enterprise teams</h4>
+          <p>
+            Get frictionless time reporting for employees and customizable
+            time insights for managers.
+          </p>
+          <div class="hid-msg">
+            <h3>Make every minute <br>count</h3>
+          </div>
+          <div class="div-arr-btn">
+            <a href="#">Learn more
+              <span><i class="fa-solid fa-arrow-right"></i> </span></a>
+          </div>
+          <img src="./photos/team-smallteam.avif" alt="">
+        </div>
+        <div class="scroll-box">
+          <h4>Enterprise teams</h4>
+          <p>
+            Get frictionless time reporting for employees and customizable
+            time insights for managers.
+          </p>
+          <div class="hid-msg">
+            <h3>Make every minute <br>count</h3>
+          </div>
+          <div class="div-arr-btn">
+            <a href="#">Learn more
+              <span><i class="fa-solid fa-arrow-right"></i> </span></a>
+          </div>
+          <img src="./photos/team-consultant.avif" alt="">
+        </div>
+        <!-- <div class="scroll-box">
+              <h4>Enterprise teams</h4>
+              <p>Get frictionless time reporting for employees and customizable time insights for managers.</p>
+            </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------- footer ------------------------------ -->
+
+  <footer>
+    <div class="foot-top">
+      <div class="body">
+        <div class="foot-top-head">
+          <h1>toggl <span>track</span></h1>
+          <ul>
+            <li><i class="fa-brands fa-linkedin"></i></i></li>
+            <li><i class="fa-brands fa-instagram"></i></i></li>
+            <li><i class="fa-brands fa-x-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+          </ul>
+        </div>
+        <table class="foot-list">
+          <tr>
+            <th>Product</th>
+            <th>Use Cases</th>
+            <th>Download</th>
+            <th>Help</th>
+            <th>Resourses</th>
+          </tr>
+          <tr>
+            <td>Features</td>
+            <td>Billing and Invoicing</td>
+            <td>Mobile Apps</td>
+            <td>Support & Knowledge Base</td>
+            <td>API</td>
+          </tr>
+          <tr>
+            <td>Pricing</td>
+            <td>Pricing</td>
+            <td>Integration</td>
+            <td>Case Studies</td>
+            <td>API</td>
+          </tr>
+          <tr>
+            <td>Integration</td>
+            <td>Pricing</td>
+            <td></td>
+            <td>Case Studies</td>
+            <td>API</td>
+          </tr>
+          <tr>
+            <td>Case Studies</td>
+            <td>Pricing</td>
+            <td></td>
+            <td></td>
+            <td>Terms of Service</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Work Hours Tracker </td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="foot-bottom">
+      <div class="body">
+        <div class="foot-btm-head">
+          <h1>the <span>toggl</span> company</h1>
+          <hr>
+          <ul>
+            <li>Blog</li>
+            <li>Our Mission</li>
+            <li>Working at Toggl</li>
+          </ul>
+        </div>
+        <div class="foot-tool">
+          <h4>Discover our other tools:</h4>
+          <div class="toggl-tool">
+            <div>
+              <h3>toggl <span>plan</span></h3>
+              <p>Beautifully simple team planning</p>
+            </div>
+            <img src="./photos/toggl-plan.png" alt="">
+          </div>
+          <div class="toggl-tool fire">
+            <div>
+              <h3>toggl <span>hire</span></h3>
+              <p>Skills-based hiring</p>
+            </div>
+           <img src="./photos/toggl-hire.svg" alt="">
+          </div>
+        </div>
+        <hr>
+        <div class="footer-foot">
+          <p>Legal Center</p>
+          <p>© 2024 Toggl. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="./script.js"></script>
+</body>
+
+</html>
