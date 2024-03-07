@@ -629,7 +629,7 @@ nav #menu, #cross{
 
 .teams{
     width: 100%;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 5rem 0;
 }
 
@@ -825,12 +825,14 @@ footer .body{
 
 .foot-btm-head ul{
     list-style: none;
+    
 }
 
 .foot-btm-head li{
     font-size: 15px;
     display: inline-block;
     margin: 0 0.9rem;
+    line-height: 1rem;
 }
 
 .foot-btm-head li:hover{
@@ -840,14 +842,14 @@ footer .body{
 .foot-tool{
     /* border: 1px solid; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: space-between; */
     column-gap: 2.5%;
 }
 
 .foot-tool h4{
     width: 10%;
-    /* border: 1px solid; */
+    border: 1px solid;
     padding: 1rem 0;
     font-weight: 500;
     color: #FAE5F7;

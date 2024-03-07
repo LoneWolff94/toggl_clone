@@ -62,10 +62,19 @@
         width: 100%;
     }
 
-    .comment, .define-Para{
-        width: 80%;
+    .comment, .define-Para, .insight{
+        width: 90%;
         /* border: 1px solid; */
         margin: auto;
+    }
+
+    .comment h3{
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .comment h3 span{
+        margin-left: -5px;
     }
 
     .define-Para p{
@@ -90,6 +99,50 @@
     .bullets{
         flex-direction: column;
         row-gap: 0.7rem;
+    }
+
+    .insight h3{
+        width: 100%;
+        font-size: 33px;
+    }
+
+    .superButton{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .foot-top-head, .foot-tool{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .foot-list{
+        display: none;
+    }
+
+    .foot-btm-head{
+        /* display: block; */
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .foot-btm-head hr{
+        width: 80%;
+    }
+
+    .foot-tool{
+        width: 100%;
+        /* border: 1px solid; */
+        padding: 0;
+    }
+
+    .foot-tool h4{
+        /* padding: ; */
+        width: 100%;
+        text-align: center;
+    }
+
+    .toggl-tool{
+        width: 100%;
     }
 }
 
@@ -172,9 +225,31 @@
     .product-block .text-child h2{
         font-size: 26px;
     }
+
     .product-block .text-child p{
         font-size: 16px;
         width: 100%;
+    }
+
+    .scroll-box{
+        margin-bottom: 10rem;
+        /* border: 10px solid; */
+        height: 23rem;
+    }
+
+    .hid-msg h3{
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .scroll-box img{
+        /* margin: 0; */
+        width: 85%;
+    }
+    .foot-btm-head li{
+        /* display: block; */
+        text-align: left;
+        line-height: 1.5rem;
     }
 }
 
@@ -254,6 +329,9 @@
         margin-top: 24px;
         margin-bottom: 50px;
     }
+    .foot-btm-head hr{
+        width: 90%;
+        margin-right: 10%;
+    }   
+    
 }
-
-/*  */
